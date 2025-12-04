@@ -299,6 +299,34 @@ Header Style
   transition: all .5s ease 0s;
 }
 
+/* Make nav bar items vertically centered */
+.header-area .main-nav {
+  display: flex;
+  align-items: center;          /* vertical center for logo, search, menu */
+  justify-content: space-between;
+}
+
+/* Keep logo nicely aligned and not too big */
+.header-area .logo {
+  display: flex;
+  align-items: center;          /* centers the image inside the white pill */
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  margin-right: 24px;
+}
+
+.header-area .logo img {
+  height: 64px;                 /* slightly smaller for balance */
+  width: auto;
+}
+
+
+
+
+
 .header-area {
   position: absolute;
   background-color: transparent;
