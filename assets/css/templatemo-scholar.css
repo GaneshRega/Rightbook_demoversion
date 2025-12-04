@@ -303,9 +303,10 @@ Header Style
 .header-area .main-nav {
   background: transparent;
   display: flex;
-  align-items: center;
+  align-items: center;      /* logo, search, nav share same center line */
   justify-content: space-between;
 }
+
 
 /* Keep logo nicely aligned and not too big */
 .header-area .logo {
@@ -330,11 +331,11 @@ Header Style
   left: 0;
   right: 0;
   z-index: 100;
-  -webkit-transition: all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
+  display: flex;
+  align-items: center;      /* center contents vertically in header */
   transition: all .5s ease 0s;
 }
+
 
 .header-area .main-nav {
   background: transparent;
@@ -360,8 +361,9 @@ Header Style
 }
 
 .background-header .main-nav .logo,
-.background-header .main-nav #search {
-  margin-top: 18px;
+.background-header .main-nav #search
+.background-header .main-nav .nav{
+  margin-top: 0;
 }
 
 .header-area .main-nav #search {
@@ -1930,6 +1932,7 @@ body {
     width: 95%;
   }
 }
+
 
 
 
