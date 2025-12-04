@@ -312,8 +312,6 @@ Header Style
   align-items: center;          /* centers the image inside the white pill */
   justify-content: center;
   padding: 4px 10px;
-  border-radius: 999px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
   margin-right: 24px;
 }
 
@@ -1933,4 +1931,5 @@ body {
     width: 95%;
   }
 }
+
 
